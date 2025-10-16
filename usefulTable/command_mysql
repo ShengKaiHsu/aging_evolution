@@ -1,0 +1,4 @@
+command_mysql
+mysql -u shengkai -p -D flyatlas2 -e "source <path>"
+mysql -u shengkai -p -D flyatlas2 -e "select * from Tissue;" --raw -s > Tissue.txt
+mysql -u shengkai -p -D flyatlas2 -e "select * from geneFPKM;" --raw -s > geneFPKM.txt
